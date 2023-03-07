@@ -52,7 +52,7 @@ Maven dependency yönetiminin en güzel taraflarından biri de transitive depend
 
 `<dependency>`<br>
 `<groupId>mysql</groupId>`<br>
-`<artifactId>mysql-connector-java</artifactId>`
+`<artifactId>mysql-connector-java</artifactId>`<br>
 `<version>8.0.15</version>`<br>
 `</dependency>`
 
