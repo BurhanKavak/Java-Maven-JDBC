@@ -15,9 +15,11 @@ Maven proje dosyasına eklenen bağımlılıklar ile kolay bir şekilde indirmey
 
 ![img.png](img.png)
 
-<b>`<groupId>org.example</gruopId>`<br>
-<b>`<artifactId>mavenAndJDBC</artifactId>`<br>
-<b>`<version>1.0-SNAPSHOT</version>`
+```java
+<groupId>org.example</gruopId>
+<artifactId>mavenAndJDBC</artifactId>
+<version>1.0-SNAPSHOT</version>
+```
 
 - **groupId**
 
@@ -50,11 +52,13 @@ Maven dependency yönetiminin en güzel taraflarından biri de transitive depend
 
 ![img_3.png](img_3.png)
 
-`<dependency>`<br>
-`<groupId>mysql</groupId>`<br>
-`<artifactId>mysql-connector-java</artifactId>`<br>
-`<version>8.0.15</version>`<br>
-`</dependency>`
+```java
+<dependency>
+<groupId>mysql</groupId>
+<artifactId>mysql-connector-java</artifactId>
+<version>8.0.15</version>
+</dependency>
+```
 
 ## 🎯 Maven build yaşam döngüsü
 
